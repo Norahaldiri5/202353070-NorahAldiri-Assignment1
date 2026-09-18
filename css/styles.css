@@ -1,0 +1,213 @@
+/* =========================
+   General
+========================= */
+
+* {
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #071525;
+   color: #c7d5e3;
+   line-height: 1.7;
+}
+
+
+/* =========================
+   Header
+========================= */
+
+header {
+   background-color: #0b2d52;
+   color: white;
+   text-align: center;
+   padding: 70px 20px;
+}
+
+header h1 {
+   margin: 0;
+   font-size: 3rem;
+}
+
+
+/* =========================
+   Main Content
+========================= */
+
+main {
+   width: 90%;
+   max-width: 1100px;
+   margin: auto;
+}
+
+section {
+   padding: 70px 0;
+}
+
+section h2 {
+   margin-top: 0;
+   margin-bottom: 30px;
+   color: #f2f7fc;
+   font-size: 2.2rem;
+   text-align: center;
+}
+
+
+/* =========================
+   About Me
+========================= */
+
+#about {
+   max-width: 850px;
+   margin: auto;
+   text-align: center;
+}
+
+.tagline {
+   margin-bottom: 25px;
+   color: #65b5ed;
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+
+
+/* =========================
+   Projects
+========================= */
+
+.projects-container {
+   display: flex;
+   gap: 30px;
+}
+
+.project-card {
+   flex: 1;
+   background-color: #153553;
+   border: 1px solid #2b5274;
+   border-radius: 16px;
+   overflow: hidden;
+}
+
+.project-card img {
+   display: block;
+   width: 100%;
+   height: 260px;
+   object-fit: cover;
+}
+
+.project-card img.copilot-image {
+   object-fit: contain;
+   background-color: #0d2942;
+}
+
+.project-card h3 {
+   margin: 25px 25px 12px;
+   color: #8bc8f2;
+}
+
+.project-card .course-name {
+   margin: 0 25px 22px;
+   color: #8bc8f2;
+   font-weight: 600;
+}
+
+.project-card p {
+   margin: 0 25px 25px;
+}
+
+
+/* =========================
+   Contact
+========================= */
+
+#contact {
+   max-width: 750px;
+   margin: auto;
+}
+
+.contact-links {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin-bottom: 35px;
+}
+
+.contact-button {
+   padding: 10px 22px;
+   color: #65b5ed;
+   border: 1px solid #3977a9;
+   border-radius: 25px;
+   text-decoration: none;
+}
+
+
+/* =========================
+   Contact Form
+========================= */
+
+form {
+   margin-top: 35px;
+   padding: 35px;
+   background-color: #153553;
+   border: 1px solid #2b5274;
+   border-radius: 16px;
+}
+
+form p {
+   margin: 0 0 22px;
+}
+
+label {
+   display: block;
+   margin-bottom: 7px;
+   font-weight: bold;
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 13px;
+   color: #e7f1fa;
+   background-color: #071525;
+   border: 1px solid #294967;
+   border-radius: 8px;
+   font: inherit;
+}
+
+textarea {
+   resize: vertical;
+}
+
+form button {
+   padding: 13px 26px;
+   color: white;
+   background-color: #3977a9;
+   border: none;
+   border-radius: 8px;
+   font-size: 1rem;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+   margin-top: 40px;
+   padding: 25px;
+   color: #9fb2c5;
+   background-color: #04101d;
+   text-align: center;
+}
+
+footer p {
+   margin: 0;
+}
