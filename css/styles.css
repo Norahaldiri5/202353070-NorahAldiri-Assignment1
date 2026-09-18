@@ -236,3 +236,60 @@ footer {
 footer p {
    margin: 0;
 }
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 768px) {
+
+   header {
+      padding: 55px 20px 40px;
+   }
+
+   header h1 {
+      font-size: 2.3rem;
+   }
+
+   nav {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 2px;
+      padding: 8px 4px;
+   }
+
+   nav a {
+      padding: 5px 9px;
+      font-size: 0.85rem;
+      white-space: nowrap;
+   }
+
+   main {
+      width: 88%;
+   }
+
+   section {
+      padding: 50px 0;
+   }
+
+   section h2 {
+      font-size: 1.8rem;
+   }
+
+   .tagline {
+      font-size: 1.15rem;
+   }
+
+   .projects-container {
+      flex-direction: column;
+   }
+
+   .contact-links {
+      flex-wrap: wrap;
+   }
+
+   form {
+      padding: 25px;
+   }
+}
